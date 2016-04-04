@@ -10,7 +10,6 @@ Output: Precision, Recall, F-Measure, Accuracy
 '''
 
 def createConfusion(y_hat, y, classSet):
-      print len(y_hat), len(y
       confusion = np.zeros((len(classSet), len(classSet)))
       
       '''
